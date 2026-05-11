@@ -30,6 +30,9 @@ cypress/screenshots
 cypress/videos
 .nyc_output
 
+# storybook
+storybook-static
+
 # playwright
 playwright-report
 test-results
