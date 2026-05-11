@@ -17,7 +17,7 @@ export const Default: Story = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
     await expect(
-      canvas.findByText('Hello from the starter app!')
+      canvas.findByText('Hello from the starter app!'),
     ).resolves.toBeInTheDocument();
   },
 };
